@@ -210,7 +210,7 @@ OPEN表保存所有已生成而未考察的节点，CLOSED表中记录已访问�
 
 
 算法实现
-[编辑本段]
+
 #include<fstream>
 #define MaxNum 765432100
 using namespace std;
@@ -644,7 +644,6 @@ for(i=0;i<VerNum;i++)
 if(Visited==0) s++;
 return s;
 }
-
 
 
 
